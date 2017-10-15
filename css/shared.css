@@ -93,6 +93,7 @@ section {
 .container {
   padding-right: 15px;
   padding-left: 15px;
+  position: center;
   margin-right: auto;
   margin-left: auto;
 }
@@ -194,11 +195,12 @@ section {
   =======================================*/
 .flex-container {
     display: -webkit-flex;
-    display: flex;
+	display: flex;
+	position: center;
 	flex-wrap: wrap;
 	padding: 5px;
 	border-radius: 8px;
-	margin: 0px auto;
+	margin: 20px auto;
 	background-color: rgba(161, 185, 164, 0.38);
 	box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.5);
 }

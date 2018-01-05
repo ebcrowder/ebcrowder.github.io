@@ -1,92 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
-  	<head>
-    <!-- Required meta tags -->
+
+  <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>E.Crowder | Portland, OR</title>
-		<link rel="stylesheet" href="./css/shared.css">
-		<link rel="stylesheet" href="./css/animations.css">
-	 <!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	</head>
-	<body>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	
-		<!-- NAV -->
-		<div class="wrap">
-			<div class="menu-container">
-				<ul class="menu">
-					<a href="#home"><li>HOME</li></a>
-					<a href="#portfolio"><li>PORTFOLIO</li></a>
-					<a href="#about"><li>ABOUT</li></a>
-				</ul>
-			</div>
-		</div>
-		<!--END NAV -->
-		
-		<!--HOME -->
-		<div id="home">
-			<div class="container">
-				<div class="text-center">
-					<span class="head-main">Eric Crowder</span>
-				</div>
-					<div class="text-center">
-						<span class="head-main">Portland, Oregon</span>
-					</div>
-			</div>
-		</div>
-		<!--END HOME -->
-		
-		<!-- PORTFOLIO -->
-	   <section id="portfolio">
-		   <div class="container">
-				<h1>Portfolio</h1>
-				<div class="flex-container">
-					<button type="button" class="btn btn-primary btn-lg">Project 1</button>
-					<button type="button" class="btn btn-primary btn-lg">Project 2</button>
-					<button type="button" class="btn btn-primary btn-lg">Project 3</button>	
-				</div>
-		   </div>
-	   </section>
-		<!-- END PORTFOLIO -->
-					
-		<!-- ABOUT -->
-		<div id="about">
-				<header class="mainheader">
-					<div class="mainheader__bd bd">
-						<div class="mainheadercontent">
-						<h1>About</h1>
-						</div>		
-					<!-- /info -->
-						<div class="info">
-							<p>Eric resides in Portland, Oregon. He enjoys trail running, camping and hiking with his pitbull, Jefferson.</p>
-						</div>		
-					</div>
-		<!--END ABOUT -->
+    <title>E.B. Crowder | Software Developer</title>
 
-		<!-- FOOTER -->
-		<div id="footer">
-			<div class ="footer">
-				E. Crowder &nbsp;|&nbsp; &copy; 2017
-				<span></span>
-				<li><a href="http://www.linkedin.com/in/eric-crowder-6a620127">
-				<img src="./images/Linkedin.png"/>
-				</a></li>
-				<li><a href="https://github.com/ebcrowder/Tech-Academy-Projects">
-				<img src="./images/github.png"/>
-				</a></li>
-				<li><a href=mailto:ebcrowder@gmail.com>
-				<img src="./images/mail.png"/>
-				</a></li>
-			</div>
-		</div>
-		<!-- END FOOTER -->
-		
-	</body>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">E.B. Crowder | Web Developer</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Eric B.
+            <span class="text-primary">Crowder</span>
+          </h1>
+          <div class="subheading mb-5">Portland,OR · 
+            <a href="mailto:ebcrowder@gmail.com">ebcrowder@gmail.com</a>
+          </div>
+          <p class="mb-5">I am a full-stack software developer that enjoys building solutions and collaborating with teams to accomplish tasks. I have over a decade of experience working in teams in the accounting field to meet deliverables within critical deadlines and to help clients achieve their goals.</p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/ebcrowder/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/ebcrowder">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Full-Stack Software Developer Intern</h3>
+              <div class="subheading mb-3">Prosper IT Consulting - Portland, OR</div>
+              <p>Collaborate with team members to address messaging and social interaction functionalities and CSS styling for a travel-focused social network.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">December 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Audit Manager</h3>
+              <div class="subheading mb-3">Perkins & Co. - Portland, OR</div>
+              <p>Oversee audit and assurance engagements of clients in a variety of industries, including not-for-profit, construction, financial services and manufacturing and distribution.</p>
+              <p>Provide training for staff in CaseWare IDEA, a powerful software solution used for extracting and interpreting data from large client accounting systems and other databases.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">October 2016 - January 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Manager</h3>
+              <div class="subheading mb-3">Dixon Hughes Goodman LLP - Tysons, VA</div>
+              <p>Oversee audit and assurance engagements of clients in the financial services, government contracting and not-for-profit industries.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2007 - September 2016</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">The Tech Academy</h3>
+              <div class="subheading mb-3"></div>
+              <div>Software Developer Bootcamp</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2017 - December 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Longwood University</h3>
+              <div class="subheading mb-3">Bachelor of Science in Business Administration</div>
+              <div>Accounting Concentration</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2003 - May 2007</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Manassas Park High School</h3>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 1999 - May 2003</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-jquery"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-react"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-python"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-wordpress"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-php"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-database"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Agile Development &amp; Scrum</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>Apart from being a software developer, I spend a lot of time outdoors. I love trail running and will be participating in several ultra-distance events in 2018. Also, my pitbull, Jefferson, joins me on hiking and camping trips around Oregon and Washington.</p>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Certified Public Accountant - Oregon # 14740</li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
 </html>
